@@ -1,0 +1,368 @@
+2024-09-03 16:36:49,428 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Initializing WebDriver for browser: Chrome with version: 128.0
+2024-09-03 16:36:49,436 [TestNG-test-DailyTests-1] INFO  com.field.Pages.WhatsappPage  - Initializing WebDriver for browser: Chrome with version: 128.0
+2024-09-03 16:36:49,436 [TestNG-test-DailyTests-1] INFO  com.field.Pages.WhatsappPage  - Setting up Chrome WebDriver.
+2024-09-03 16:36:52,403 [TestNG-test-DailyTests-1] INFO  com.field.Pages.WhatsappPage  - Chrome WebDriver initialized successfully.
+2024-09-03 16:36:52,404 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - WebDriver initialized successfully.
+2024-09-03 16:36:54,896 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Navigated to URL: https://redipae.in
+2024-09-03 16:36:54,910 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Implicit wait timeout set to 20 seconds.
+2024-09-03 16:36:54,924 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Browser window maximized.
+2024-09-03 16:36:54,924 [TestNG-test-DailyTests-1] INFO  com.field.Tests.BaseTest  - Driver initialized successfully.
+2024-09-03 16:36:54,954 [TestNG-test-DailyTests-1] INFO  com.field.Pages.RedipaePage  - Logging into application with username: muthuadmin, client: First Club
+2024-09-03 16:36:54,955 [TestNG-test-DailyTests-1] INFO  com.field.Pages.RedipaePage  - Setting username: muthuadmin
+2024-09-03 16:36:54,960 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: PRESENCE for element located by: By.id: username
+2024-09-03 16:36:54,963 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be present in the DOM.
+2024-09-03 16:36:55,217 [TestNG-test-DailyTests-1] INFO  com.field.Pages.RedipaePage  - Setting password.
+2024-09-03 16:36:55,219 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: PRESENCE for element located by: By.id: password
+2024-09-03 16:36:55,219 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be present in the DOM.
+2024-09-03 16:36:55,536 [TestNG-test-DailyTests-1] INFO  com.field.Pages.RedipaePage  - Selecting client from dropdown: First Club
+2024-09-03 16:36:55,918 [TestNG-test-DailyTests-1] INFO  com.field.Pages.RedipaePage  - Clicking the login button.
+2024-09-03 16:36:55,919 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: CLICKABLE for element located by: By.xpath: //*[text()='Login']
+2024-09-03 16:36:55,920 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be clickable.
+2024-09-03 16:36:57,502 [TestNG-test-DailyTests-1] INFO  com.field.Pages.RedipaePage  - Verifying if the homepage is displayed.
+2024-09-03 16:36:57,557 [TestNG-test-DailyTests-1] INFO  com.field.Pages.RedipaePage  - Homepage is displayed. Navigating to Add User page.
+2024-09-03 16:36:57,558 [TestNG-test-DailyTests-1] INFO  com.field.Pages.RedipaePage  - Navigating to Add User page.
+2024-09-03 16:36:57,558 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: CLICKABLE for element located by: By.xpath: //*[text()='User Master']
+2024-09-03 16:36:57,558 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be clickable.
+2024-09-03 16:36:57,739 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: CLICKABLE for element located by: By.xpath: //*[@href='https://Redipae.in//User/UploadUser']
+2024-09-03 16:36:57,739 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be clickable.
+2024-09-03 16:36:59,022 [TestNG-test-DailyTests-1] INFO  com.field.Pages.RedipaePage  - Waiting for the upload button to be present.
+2024-09-03 16:36:59,022 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: PRESENCE for element located by: By.id: btUpload
+2024-09-03 16:36:59,023 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be present in the DOM.
+2024-09-03 16:37:00,053 [TestNG-test-DailyTests-1] INFO  com.field.Pages.RedipaePage  - Redipae Web logged in successfully.
+2024-09-03 16:37:00,285 [TestNG-test-DailyTests-1] INFO  com.field.Tests.BaseTest  - Starting teardown for test method.
+2024-09-03 16:37:00,286 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Quitting WebDriver instance.
+2024-09-03 16:37:00,621 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - WebDriver instance quit successfully.
+2024-09-03 16:37:00,621 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Cleanup tasks performed after quitting WebDriver.
+2024-09-03 16:37:00,621 [TestNG-test-DailyTests-1] INFO  com.field.Tests.BaseTest  - Driver quit successfully.
+2024-09-03 16:37:00,625 [TestNG-test-DailyTests-1] INFO  com.field.DataProviderUtils.Dataprovider  - Retrieving test data for method: HrmsWebLoginVerification
+2024-09-03 16:37:00,626 [TestNG-test-DailyTests-1] INFO  com.field.Utils.Excelutils  - Getting current sheet name: LoginData
+2024-09-03 16:37:00,626 [TestNG-test-DailyTests-1] INFO  com.field.DataProviderUtils.Dataprovider  - Filtered data found for test: HrmsWebLoginVerification with 1 entries.
+2024-09-03 16:37:00,628 [TestNG-test-DailyTests-1] INFO  com.field.Tests.BaseTest  - Starting setup for test method.
+2024-09-03 16:37:00,631 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Initializing WebDriver for browser: Chrome with version: 129.0
+2024-09-03 16:37:00,631 [TestNG-test-DailyTests-1] INFO  com.field.Pages.WhatsappPage  - Initializing WebDriver for browser: Chrome with version: 129.0
+2024-09-03 16:37:00,632 [TestNG-test-DailyTests-1] INFO  com.field.Pages.WhatsappPage  - Setting up Chrome WebDriver.
+2024-09-03 16:37:02,179 [TestNG-test-DailyTests-1] INFO  com.field.Pages.WhatsappPage  - Chrome WebDriver initialized successfully.
+2024-09-03 16:37:02,179 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - WebDriver initialized successfully.
+2024-09-03 16:37:03,882 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Navigated to URL: http://hrms.ppms.co.in/
+2024-09-03 16:37:03,888 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Implicit wait timeout set to 20 seconds.
+2024-09-03 16:37:03,900 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Browser window maximized.
+2024-09-03 16:37:03,901 [TestNG-test-DailyTests-1] INFO  com.field.Tests.BaseTest  - Driver initialized successfully.
+2024-09-03 16:37:03,904 [TestNG-test-DailyTests-1] INFO  com.field.Pages.HRMSPage  - Performing login with username: Nandy and client: 3point
+2024-09-03 16:37:03,905 [TestNG-test-DailyTests-1] INFO  com.field.Pages.HRMSPage  - Setting username: Nandy
+2024-09-03 16:37:03,905 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: PRESENCE for element located by: By.id: txtUsername
+2024-09-03 16:37:03,905 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be present in the DOM.
+2024-09-03 16:37:04,062 [TestNG-test-DailyTests-1] INFO  com.field.Pages.HRMSPage  - Setting password.
+2024-09-03 16:37:04,062 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: PRESENCE for element located by: By.id: txtPassword
+2024-09-03 16:37:04,062 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be present in the DOM.
+2024-09-03 16:37:04,244 [TestNG-test-DailyTests-1] INFO  com.field.Pages.HRMSPage  - Setting company/client: 3point
+2024-09-03 16:37:04,244 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: PRESENCE for element located by: By.id: txtClient
+2024-09-03 16:37:04,244 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be present in the DOM.
+2024-09-03 16:37:04,443 [TestNG-test-DailyTests-1] INFO  com.field.Pages.HRMSPage  - Clicking login button.
+2024-09-03 16:37:04,443 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: CLICKABLE for element located by: By.id: btnLogin
+2024-09-03 16:37:04,443 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be clickable.
+2024-09-03 16:37:04,736 [TestNG-test-DailyTests-1] INFO  com.field.Pages.HRMSPage  - Verifying homepage display.
+2024-09-03 16:37:04,736 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: PRESENCE for element located by: By.xpath: //*[text()='Bandhu OB Initiate']
+2024-09-03 16:37:04,737 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be present in the DOM.
+2024-09-03 16:37:05,945 [TestNG-test-DailyTests-1] INFO  com.field.Pages.HRMSPage  - 'Bandhu OB Initiate' element is displayed. Navigating to 'Employee Onboard Process'.
+2024-09-03 16:37:05,945 [TestNG-test-DailyTests-1] INFO  com.field.Pages.HRMSPage  - Navigating to 'Employee Onboard Process'.
+2024-09-03 16:37:05,945 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: CLICKABLE for element located by: By.xpath: //*[text()='Bandhu OB Initiate']
+2024-09-03 16:37:05,945 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be clickable.
+2024-09-03 16:37:06,249 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: CLICKABLE for element located by: By.xpath: //*[text()='Employee Onboard Process']
+2024-09-03 16:37:06,251 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be clickable.
+2024-09-03 16:37:09,281 [TestNG-test-DailyTests-1] INFO  com.field.Pages.HRMSPage  - Switching to iframe and waiting for header element.
+2024-09-03 16:37:09,348 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: PRESENCE for element located by: By.id: headerID
+2024-09-03 16:37:09,348 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be present in the DOM.
+2024-09-03 16:37:10,643 [TestNG-test-DailyTests-1] INFO  com.field.Pages.HRMSPage  - Homepage is displayed successfully.
+2024-09-03 16:37:10,645 [TestNG-test-DailyTests-1] INFO  com.field.Tests.BaseTest  - Starting teardown for test method.
+2024-09-03 16:37:10,645 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Quitting WebDriver instance.
+2024-09-03 16:37:11,021 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - WebDriver instance quit successfully.
+2024-09-03 16:37:11,021 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Cleanup tasks performed after quitting WebDriver.
+2024-09-03 16:37:11,021 [TestNG-test-DailyTests-1] INFO  com.field.Tests.BaseTest  - Driver quit successfully.
+2024-09-03 16:37:11,024 [TestNG-test-DailyTests-1] INFO  com.field.DataProviderUtils.Dataprovider  - Retrieving test data for method: FrameXWebLoginVerification
+2024-09-03 16:37:11,024 [TestNG-test-DailyTests-1] INFO  com.field.Utils.Excelutils  - Getting current sheet name: LoginData
+2024-09-03 16:37:11,024 [TestNG-test-DailyTests-1] INFO  com.field.DataProviderUtils.Dataprovider  - Filtered data found for test: FrameXWebLoginVerification with 1 entries.
+2024-09-03 16:37:11,027 [TestNG-test-DailyTests-1] INFO  com.field.Tests.BaseTest  - Starting setup for test method.
+2024-09-03 16:37:11,029 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Initializing WebDriver for browser: Chrome with version: 128.0
+2024-09-03 16:37:11,030 [TestNG-test-DailyTests-1] INFO  com.field.Pages.WhatsappPage  - Initializing WebDriver for browser: Chrome with version: 128.0
+2024-09-03 16:37:11,030 [TestNG-test-DailyTests-1] INFO  com.field.Pages.WhatsappPage  - Setting up Chrome WebDriver.
+2024-09-03 16:37:12,793 [TestNG-test-DailyTests-1] INFO  com.field.Pages.WhatsappPage  - Chrome WebDriver initialized successfully.
+2024-09-03 16:37:12,793 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - WebDriver initialized successfully.
+2024-09-03 16:37:14,504 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Navigated to URL: http://framex.ppms.co.in/
+2024-09-03 16:37:14,509 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Implicit wait timeout set to 20 seconds.
+2024-09-03 16:37:14,516 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Browser window maximized.
+2024-09-03 16:37:14,516 [TestNG-test-DailyTests-1] INFO  com.field.Tests.BaseTest  - Driver initialized successfully.
+2024-09-03 16:37:14,520 [TestNG-test-DailyTests-1] INFO  com.field.Pages.FrameXPage  - Performing login with username: defaultpm, project/client: tcplgt
+2024-09-03 16:37:14,520 [TestNG-test-DailyTests-1] INFO  com.field.Pages.FrameXPage  - Setting username: defaultpm
+2024-09-03 16:37:14,520 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: PRESENCE for element located by: By.id: txtUserName
+2024-09-03 16:37:14,520 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be present in the DOM.
+2024-09-03 16:37:14,677 [TestNG-test-DailyTests-1] INFO  com.field.Pages.FrameXPage  - Setting password.
+2024-09-03 16:37:14,677 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: PRESENCE for element located by: By.id: txtPassword
+2024-09-03 16:37:14,677 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be present in the DOM.
+2024-09-03 16:37:14,887 [TestNG-test-DailyTests-1] INFO  com.field.Pages.FrameXPage  - Setting project/client: tcplgt
+2024-09-03 16:37:14,888 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: PRESENCE for element located by: By.id: txt_projectname
+2024-09-03 16:37:14,888 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be present in the DOM.
+2024-09-03 16:37:15,116 [TestNG-test-DailyTests-1] INFO  com.field.Pages.FrameXPage  - Clicking login button.
+2024-09-03 16:37:15,117 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: CLICKABLE for element located by: By.id: btnLogin
+2024-09-03 16:37:15,117 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be clickable.
+2024-09-03 16:37:18,251 [TestNG-test-DailyTests-1] INFO  com.field.Pages.FrameXPage  - Verifying homepage is displayed.
+2024-09-03 16:37:18,251 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: PRESENCE for element located by: By.xpath: //*[text()='Role Management']
+2024-09-03 16:37:18,251 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be present in the DOM.
+2024-09-03 16:37:20,642 [TestNG-test-DailyTests-1] INFO  com.field.Pages.FrameXPage  - Homepage is displayed. FrameX Web Logged in Successfully
+2024-09-03 16:37:20,643 [TestNG-test-DailyTests-1] INFO  com.field.Tests.BaseTest  - Starting teardown for test method.
+2024-09-03 16:37:20,643 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Quitting WebDriver instance.
+2024-09-03 16:37:20,956 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - WebDriver instance quit successfully.
+2024-09-03 16:37:20,956 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Cleanup tasks performed after quitting WebDriver.
+2024-09-03 16:37:20,956 [TestNG-test-DailyTests-1] INFO  com.field.Tests.BaseTest  - Driver quit successfully.
+2024-09-03 16:37:20,958 [TestNG-test-DailyTests-1] INFO  com.field.DataProviderUtils.Dataprovider  - Retrieving test data for method: PayrollWebLoginVerification
+2024-09-03 16:37:20,958 [TestNG-test-DailyTests-1] INFO  com.field.Utils.Excelutils  - Getting current sheet name: LoginData
+2024-09-03 16:37:20,958 [TestNG-test-DailyTests-1] INFO  com.field.DataProviderUtils.Dataprovider  - Filtered data found for test: PayrollWebLoginVerification with 1 entries.
+2024-09-03 16:37:20,959 [TestNG-test-DailyTests-1] INFO  com.field.Tests.BaseTest  - Starting setup for test method.
+2024-09-03 16:37:20,961 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Initializing WebDriver for browser: Chrome with version: 128.0
+2024-09-03 16:37:20,961 [TestNG-test-DailyTests-1] INFO  com.field.Pages.WhatsappPage  - Initializing WebDriver for browser: Chrome with version: 128.0
+2024-09-03 16:37:20,962 [TestNG-test-DailyTests-1] INFO  com.field.Pages.WhatsappPage  - Setting up Chrome WebDriver.
+2024-09-03 16:37:22,972 [TestNG-test-DailyTests-1] INFO  com.field.Pages.WhatsappPage  - Chrome WebDriver initialized successfully.
+2024-09-03 16:37:22,972 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - WebDriver initialized successfully.
+2024-09-03 16:37:24,446 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Navigated to URL: https://payroll.ppms.co.in/
+2024-09-03 16:37:24,456 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Implicit wait timeout set to 20 seconds.
+2024-09-03 16:37:24,467 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Browser window maximized.
+2024-09-03 16:37:24,467 [TestNG-test-DailyTests-1] INFO  com.field.Tests.BaseTest  - Driver initialized successfully.
+2024-09-03 16:37:24,472 [TestNG-test-DailyTests-1] INFO  com.field.Pages.PayrollPage  - Logging into application with username: Padmin, client: 3point
+2024-09-03 16:37:24,472 [TestNG-test-DailyTests-1] INFO  com.field.Pages.PayrollPage  - Setting username: Padmin
+2024-09-03 16:37:24,472 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: PRESENCE for element located by: By.id: txtUsername
+2024-09-03 16:37:24,472 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be present in the DOM.
+2024-09-03 16:37:24,649 [TestNG-test-DailyTests-1] INFO  com.field.Pages.PayrollPage  - Setting password.
+2024-09-03 16:37:24,650 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: PRESENCE for element located by: By.id: txtPassword
+2024-09-03 16:37:24,650 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be present in the DOM.
+2024-09-03 16:37:24,851 [TestNG-test-DailyTests-1] INFO  com.field.Pages.PayrollPage  - Setting company : 3point
+2024-09-03 16:37:24,851 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: PRESENCE for element located by: By.id: txtClient
+2024-09-03 16:37:24,851 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be present in the DOM.
+2024-09-03 16:37:25,086 [TestNG-test-DailyTests-1] INFO  com.field.Pages.PayrollPage  - Clicking the login button.
+2024-09-03 16:37:25,087 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: CLICKABLE for element located by: By.id: btnLogin
+2024-09-03 16:37:25,087 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be clickable.
+2024-09-03 16:37:25,378 [TestNG-test-DailyTests-1] INFO  com.field.Pages.PayrollPage  - Verifying if the homepage is displayed.
+2024-09-03 16:37:25,378 [TestNG-test-DailyTests-1] INFO  com.field.Pages.PayrollPage  - Waiting for 'Salary Reports' element to be present.
+2024-09-03 16:37:25,379 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: PRESENCE for element located by: By.xpath: //*[text()='Salary Reports']
+2024-09-03 16:37:25,379 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be present in the DOM.
+2024-09-03 16:37:26,684 [TestNG-test-DailyTests-1] INFO  com.field.Pages.PayrollPage  - Homepage is displayed. Clicking on 'Salary Reports' and 'PaySlip'.
+2024-09-03 16:37:26,684 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: CLICKABLE for element located by: By.xpath: //*[text()='Salary Reports']
+2024-09-03 16:37:26,684 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be clickable.
+2024-09-03 16:37:26,884 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: CLICKABLE for element located by: By.xpath: //*[text()='PaySlip']
+2024-09-03 16:37:26,884 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be clickable.
+2024-09-03 16:37:29,247 [TestNG-test-DailyTests-1] INFO  com.field.Pages.PayrollPage  - Payroll Web logged in successfully.
+2024-09-03 16:37:29,433 [TestNG-test-DailyTests-1] INFO  com.field.Tests.BaseTest  - Starting teardown for test method.
+2024-09-03 16:37:29,433 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Quitting WebDriver instance.
+2024-09-03 16:37:29,741 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - WebDriver instance quit successfully.
+2024-09-03 16:37:29,741 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Cleanup tasks performed after quitting WebDriver.
+2024-09-03 16:37:29,741 [TestNG-test-DailyTests-1] INFO  com.field.Tests.BaseTest  - Driver quit successfully.
+2024-09-03 16:37:29,742 [TestNG-test-DailyTests-1] INFO  com.field.DataProviderUtils.Dataprovider  - Retrieving test data for method: VendoWebLoginVerification
+2024-09-03 16:37:29,742 [TestNG-test-DailyTests-1] INFO  com.field.Utils.Excelutils  - Getting current sheet name: LoginData
+2024-09-03 16:37:29,744 [TestNG-test-DailyTests-1] INFO  com.field.DataProviderUtils.Dataprovider  - Filtered data found for test: VendoWebLoginVerification with 1 entries.
+2024-09-03 16:37:29,745 [TestNG-test-DailyTests-1] INFO  com.field.Tests.BaseTest  - Starting setup for test method.
+2024-09-03 16:37:29,747 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Initializing WebDriver for browser: Chrome with version: 129.0
+2024-09-03 16:37:29,748 [TestNG-test-DailyTests-1] INFO  com.field.Pages.WhatsappPage  - Initializing WebDriver for browser: Chrome with version: 129.0
+2024-09-03 16:37:29,748 [TestNG-test-DailyTests-1] INFO  com.field.Pages.WhatsappPage  - Setting up Chrome WebDriver.
+2024-09-03 16:37:31,619 [TestNG-test-DailyTests-1] INFO  com.field.Pages.WhatsappPage  - Chrome WebDriver initialized successfully.
+2024-09-03 16:37:31,619 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - WebDriver initialized successfully.
+2024-09-03 16:37:31,843 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Navigated to URL: https://app.vendo.co.in/#/page/signin
+2024-09-03 16:37:31,849 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Implicit wait timeout set to 20 seconds.
+2024-09-03 16:37:33,457 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Browser window maximized.
+2024-09-03 16:37:33,457 [TestNG-test-DailyTests-1] INFO  com.field.Tests.BaseTest  - Driver initialized successfully.
+2024-09-03 16:37:33,460 [TestNG-test-DailyTests-1] INFO  com.field.Pages.VendoPage  - Performing login with username: Vendoadmin
+2024-09-03 16:37:33,461 [TestNG-test-DailyTests-1] INFO  com.field.Pages.VendoPage  - Setting username: Vendoadmin
+2024-09-03 16:37:33,461 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: PRESENCE for element located by: By.xpath: //*[@name='username']
+2024-09-03 16:37:33,461 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be present in the DOM.
+2024-09-03 16:37:33,752 [TestNG-test-DailyTests-1] INFO  com.field.Pages.VendoPage  - Setting password.
+2024-09-03 16:37:33,753 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: PRESENCE for element located by: By.xpath: //*[@name='password']
+2024-09-03 16:37:33,753 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be present in the DOM.
+2024-09-03 16:37:34,058 [TestNG-test-DailyTests-1] INFO  com.field.Pages.VendoPage  - Clicking login button.
+2024-09-03 16:37:34,059 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: CLICKABLE for element located by: By.xpath: //*[@type='submit']
+2024-09-03 16:37:34,059 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be clickable.
+2024-09-03 16:37:34,318 [TestNG-test-DailyTests-1] INFO  com.field.Pages.VendoPage  - Verifying homepage display and clicking 'Look up'.
+2024-09-03 16:37:34,318 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: PRESENCE for element located by: By.xpath: //*[text()='Look up ']
+2024-09-03 16:37:34,318 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be present in the DOM.
+2024-09-03 16:37:35,447 [TestNG-test-DailyTests-1] INFO  com.field.Pages.VendoPage  - 'Look up' element is displayed. Clicking it.
+2024-09-03 16:37:35,447 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: CLICKABLE for element located by: By.xpath: //*[text()='Look up ']
+2024-09-03 16:37:35,447 [TestNG-test-DailyTests-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be clickable.
+2024-09-03 16:37:37,112 [TestNG-test-DailyTests-1] INFO  com.field.Pages.VendoPage  - Homepage is displayed successfully.
+2024-09-03 16:37:37,114 [TestNG-test-DailyTests-1] INFO  com.field.Tests.BaseTest  - Starting teardown for test method.
+2024-09-03 16:37:37,114 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Quitting WebDriver instance.
+2024-09-03 16:37:37,417 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - WebDriver instance quit successfully.
+2024-09-03 16:37:37,417 [TestNG-test-DailyTests-1] INFO  com.field.Driver.Driver  - Cleanup tasks performed after quitting WebDriver.
+2024-09-03 16:37:37,417 [TestNG-test-DailyTests-1] INFO  com.field.Tests.BaseTest  - Driver quit successfully.
+2024-09-03 16:37:37,419 [TestNG-test-DailyTests-1] INFO  com.field.DataProviderUtils.Dataprovider  - Retrieving test data for method: RedipaeMobileLoginVerification
+2024-09-03 16:37:37,419 [TestNG-test-DailyTests-1] INFO  com.field.Utils.Excelutils  - Getting current sheet name: LoginData
+2024-09-03 16:37:37,420 [TestNG-test-DailyTests-1] INFO  com.field.DataProviderUtils.Dataprovider  - Filtered data found for test: RedipaeMobileLoginVerification with 1 entries.
+2024-09-03 16:37:37,421 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Getting new instance of ApiUtils.
+2024-09-03 16:37:37,421 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - App URL set to: http://rsettlementapi.ppms.co.in/api/login
+2024-09-03 16:37:37,423 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Query parameters status set to: false
+2024-09-03 16:37:37,423 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Query parameters set to: null
+2024-09-03 16:37:37,423 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - App parameters set to: {"username":"radha", "password":"radha", "version":"5.8"}
+2024-09-03 16:37:37,424 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Content type set to: json
+2024-09-03 16:37:37,424 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Starting API login process.
+2024-09-03 16:37:37,424 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - HTTP method set to POST.
+2024-09-03 16:37:37,424 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Content-Type and Accept headers set for JSON.
+2024-09-03 16:37:37,783 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Request body written with parameters: {"username":"radha", "password":"radha", "version":"5.8"}
+2024-09-03 16:37:37,878 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - POST Response Code :: 200
+2024-09-03 16:37:37,878 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - API response received: [{"Retailerid":"71717","Retailername":"GRT Jewellery","Address":"21, 8th Cross St W, Shenoy Nagar West, Annanagar East","retailerType":"Regular","Gstinnumber":"","tax":null,"ClientID":"1","ShopFrontPhoto":null,"PendingClaimCount":0,"IsOCREnable":true,"mobileno":"9849697207","IsOTPEnable":false,"Role":"Merc","ProjectID":"2003","ClientName":"Redipae Demo","ClientLogo":"https://redipae.in//ClientLogo/RedBull_Logo.jpg","Clientretailerid":"Retailer_01","password":"radha"},{"Retailerid":"61","Retailername":"Daily Needs Hub","Address":"Winter Hills Apartment Dwarka Mor Metro Pillar 768 Uttam Nagar New Delhi 110059","retailerType":"Regular","Gstinnumber":"","tax":null,"ClientID":"2","ShopFrontPhoto":null,"PendingClaimCount":0,"IsOCREnable":true,"mobileno":"9849697207","IsOTPEnable":false,"Role":"Merc","ProjectID":"2004","ClientName":"Enrich Beverage","ClientLogo":"https://redipae.in/Clientlogo/EnrichBeverage_Logo.jpg","Clientretailerid":"504292590","password":"radha"}]
+2024-09-03 16:37:37,879 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Mobile application logged in successfully!
+2024-09-03 16:37:37,879 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - HTTP connection closed.
+2024-09-03 16:37:37,890 [TestNG-test-DailyTests-1] INFO  com.field.DataProviderUtils.Dataprovider  - Retrieving test data for method: BandhuHRMobileLoginVerification
+2024-09-03 16:37:37,890 [TestNG-test-DailyTests-1] INFO  com.field.Utils.Excelutils  - Getting current sheet name: LoginData
+2024-09-03 16:37:37,890 [TestNG-test-DailyTests-1] INFO  com.field.DataProviderUtils.Dataprovider  - Filtered data found for test: BandhuHRMobileLoginVerification with 1 entries.
+2024-09-03 16:37:37,893 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Getting new instance of ApiUtils.
+2024-09-03 16:37:37,893 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - App URL set to: https://serviceapi.bandhuhr.in/API/UserDetails/UserLogin
+2024-09-03 16:37:37,893 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Query parameters status set to: false
+2024-09-03 16:37:37,893 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Query parameters set to: null
+2024-09-03 16:37:37,893 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - App parameters set to: {"username": "55378", "password": "553781999", "fcm_key": "", "ClientId": "1008"}
+2024-09-03 16:37:37,893 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Content type set to: json
+2024-09-03 16:37:37,893 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Starting API login process.
+2024-09-03 16:37:37,898 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - HTTP method set to POST.
+2024-09-03 16:37:37,898 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Content-Type and Accept headers set for JSON.
+2024-09-03 16:37:38,514 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Request body written with parameters: {"username": "55378", "password": "553781999", "fcm_key": "", "ClientId": "1008"}
+2024-09-03 16:37:38,551 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - POST Response Code :: 200
+2024-09-03 16:37:38,551 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - API response received: {"EmployeeFrameID":48261,"EmployeeID":"55378","Username":"55378","Password":"553781999","UserRole":"Employee","EmployeeName":"Ezhilraj","BranchId":"773","EmailId":"EZHILRJ24@GMAIL.COM","DivisionId":"1173","Division":"1173","State":null,"Reporting_Manager":"RADHAKRISHNAN M","Reporting_Manager2":"RADHAKRISHNAN M","Reporting_Manager_ID":"48261","EmployeeCategory":"S","Designation":"JUNIOR DEVELOPER","Client_Branch":"CHENNAI","FCM_Key":"","MobileNo":null,"EmployeePhoto":"/EmployeeDocument/Employee_Photo/55378.jpeg","MobileControl":"1,2,3,4,5,6,8","IsEnableChatBot":true,"ChatBotModule":"1,2,3","ReportingManagerType":"","OnboardingStatus":true,"IsOCREnable":false,"DesignationId":"419","returnErrorMessage":null,"returnStatus":true,"ClientId":null,"clientName":null,"Connectionstring":null,"DocumentURL":null,"CreatedBy":null,"CreatedDate":"0001-01-01T00:00:00","ModifiedBy":null,"ModifiedDate":"0001-01-01T00:00:00"}
+2024-09-03 16:37:38,551 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Mobile application logged in successfully!
+2024-09-03 16:37:38,551 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - HTTP connection closed.
+2024-09-03 16:37:38,554 [TestNG-test-DailyTests-1] INFO  com.field.DataProviderUtils.Dataprovider  - Retrieving test data for method: BandhuHRAttendanceVerification
+2024-09-03 16:37:38,554 [TestNG-test-DailyTests-1] INFO  com.field.Utils.Excelutils  - Getting current sheet name: LoginData
+2024-09-03 16:37:38,554 [TestNG-test-DailyTests-1] INFO  com.field.DataProviderUtils.Dataprovider  - Filtered data found for test: BandhuHRAttendanceVerification with 1 entries.
+2024-09-03 16:37:38,556 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Getting new instance of ApiUtils.
+2024-09-03 16:37:38,556 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - App URL set to: http://serviceapi.bandhuhr.in/API/Attendance/InsertAttendanceInputData
+2024-09-03 16:37:38,556 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Query parameters status set to: false
+2024-09-03 16:37:38,556 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Query parameters set to: null
+2024-09-03 16:37:38,556 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - App parameters set to: {
+    "AttendanceType": "In Time",
+    "AttendanceDate": "2024-09-03",
+    "InTime": "9:00",
+    "OutTime": "",
+    "InputType": "IN",
+    "Image": "",
+    "Longitude": "80.2239248",
+    "Latitude": "13.0823291",
+    "GeoTag": "19/10,1st Main Road,Shenoy Nagar,Chennai,Tamil Nadu,India,600102",
+    "ClientId": "1008",
+    "EmployeeFrameID": 48261
+}
+2024-09-03 16:37:38,556 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Content type set to: json
+2024-09-03 16:37:38,556 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Starting API login process.
+2024-09-03 16:37:38,556 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - HTTP method set to POST.
+2024-09-03 16:37:38,556 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Content-Type and Accept headers set for JSON.
+2024-09-03 16:37:38,589 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Request body written with parameters: {
+    "AttendanceType": "In Time",
+    "AttendanceDate": "2024-09-03",
+    "InTime": "9:00",
+    "OutTime": "",
+    "InputType": "IN",
+    "Image": "",
+    "Longitude": "80.2239248",
+    "Latitude": "13.0823291",
+    "GeoTag": "19/10,1st Main Road,Shenoy Nagar,Chennai,Tamil Nadu,India,600102",
+    "ClientId": "1008",
+    "EmployeeFrameID": 48261
+}
+2024-09-03 16:37:38,658 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - POST Response Code :: 200
+2024-09-03 16:37:38,658 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - API response received: "Your Attendance Record has been added successfully..."
+2024-09-03 16:37:38,658 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Mobile application logged in successfully!
+2024-09-03 16:37:38,658 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - HTTP connection closed.
+2024-09-03 16:37:38,664 [TestNG-test-DailyTests-1] INFO  com.field.DataProviderUtils.Dataprovider  - Retrieving test data for method: FrameXFlutterLoginVerification
+2024-09-03 16:37:38,665 [TestNG-test-DailyTests-1] INFO  com.field.Utils.Excelutils  - Getting current sheet name: LoginData
+2024-09-03 16:37:38,665 [TestNG-test-DailyTests-1] INFO  com.field.DataProviderUtils.Dataprovider  - Filtered data found for test: FrameXFlutterLoginVerification with 1 entries.
+2024-09-03 16:37:38,668 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Getting new instance of ApiUtils.
+2024-09-03 16:37:38,668 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - App URL set to: http://mobileframex.ppms.co.in/login.aspx
+2024-09-03 16:37:38,668 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Query parameters status set to: true
+2024-09-03 16:37:38,668 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Query parameters set to: versionno=V+3.2.8&version=new
+2024-09-03 16:37:38,709 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - App parameters set to: username=nw1754&password=nw1754&imeino=a78605dbb9564b19&project=framedemo_d1&mobileno=8148729703
+2024-09-03 16:37:38,709 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Content type set to: x-www-form-urlencoded
+2024-09-03 16:37:38,709 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Starting API login process.
+2024-09-03 16:37:38,713 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - HTTP method set to POST.
+2024-09-03 16:37:38,714 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Content-Type header set for x-www-form-urlencoded.
+2024-09-03 16:37:38,755 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Request body written with parameters: username=nw1754&password=nw1754&imeino=a78605dbb9564b19&project=framedemo_d1&mobileno=8148729703
+2024-09-03 16:37:39,158 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - POST Response Code :: 200
+2024-09-03 16:37:39,158 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - API response received: {"buildpath":"http://buildsframex.ppms.co.in","serverpath":"http://mobileframex.ppms.co.in","logfilepath":"http://mobileframex.ppms.co.in/MobLog.aspx","Cluster":"1","cAccCode":"nw1754","cAccType":"4","PjpEnabled":"true","todayAttendance":"","attendanceImageUrl":"","targetuploadAttrequired":true,"gpszerocoordinateallow":true,"isAttendanceRequired":true,"radius":"200","isLocationRequired":true,"isVisitorLoginRequired":true,"isExitbuttonRequired":true,"isCompressImageSize":300,"IsGPSCaptureRequired":true,"IsMapRequired":false,"IsGeofencingRequired":false,"IsShopFrontPhotoRequired":true,"IsTravelReportMapRequired":false,"IsRouteMapRequired":false,"IsUploadMapRequired":false,"AttendanceTypes":[{"Type":"Present","Code":"P","Image":"True"},{"Type":"Leave","Code":"L","Image":"False"},{"Type":"Absent","Code":"A","Image":"False"},{"Type":"At Office","Code":"AO","Image":"True"},{"Type":"Week off","Code":"WOFF","Image":"False"},{"Type":"Holiday","Code":"H","Image":"False"},{"Type":"Tour","Code":"T","Image":"False"},{"Type":"Training","Code":"TR","Image":"True"},{"Type":"Monthly Meeting","Code":"MM","Image":"True"},{"Type":"Comp off","Code":"COFF","Image":"False"}],"IsOTPRequired":"False","PatsalaRequired":false,"RedipaeRequired":false,"TargetAttendanceType":"P,T","IsGPSCaptureName":"Take Shop Front Photo"}
+2024-09-03 16:37:39,159 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Mobile application logged in successfully!
+2024-09-03 16:37:39,159 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - HTTP connection closed.
+2024-09-03 16:37:39,162 [TestNG-test-DailyTests-1] INFO  com.field.DataProviderUtils.Dataprovider  - Retrieving test data for method: FrameXAndroidLoginVerification
+2024-09-03 16:37:39,162 [TestNG-test-DailyTests-1] INFO  com.field.Utils.Excelutils  - Getting current sheet name: LoginData
+2024-09-03 16:37:39,162 [TestNG-test-DailyTests-1] INFO  com.field.DataProviderUtils.Dataprovider  - Filtered data found for test: FrameXAndroidLoginVerification with 1 entries.
+2024-09-03 16:37:39,163 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Getting new instance of ApiUtils.
+2024-09-03 16:37:39,164 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - App URL set to: http://mobileframex.ppms.co.in/login.aspx?versionno=28.2
+2024-09-03 16:37:39,164 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Query parameters status set to: false
+2024-09-03 16:37:39,164 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Query parameters set to: null
+2024-09-03 16:37:39,164 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - App parameters set to: username=nw1754&password=nw1754&imeino=a78605dbb9564b19&project=framedemo_d1&mobileno=8148729703
+2024-09-03 16:37:39,164 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Content type set to: x-www-form-urlencoded
+2024-09-03 16:37:39,164 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Starting API login process.
+2024-09-03 16:37:39,166 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - HTTP method set to POST.
+2024-09-03 16:37:39,166 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Content-Type header set for x-www-form-urlencoded.
+2024-09-03 16:37:39,166 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Request body written with parameters: username=nw1754&password=nw1754&imeino=a78605dbb9564b19&project=framedemo_d1&mobileno=8148729703
+2024-09-03 16:37:39,504 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - POST Response Code :: 200
+2024-09-03 16:37:39,505 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - API response received: {"buildpath":"http://buildsframex.ppms.co.in","serverpath":"http://mobileframex.ppms.co.in","logfilepath":"http://mobileframex.ppms.co.in/MobLog.aspx","Cluster":"1","cAccCode":"nw1754","cAccType":"4","PjpEnabled":"true","todayAttendance":"","attendanceImageUrl":"","targetuploadAttrequired":true,"gpszerocoordinateallow":true,"isAttendanceRequired":true,"radius":"200","isLocationRequired":true,"isVisitorLoginRequired":true,"isExitbuttonRequired":true,"isCompressImageSize":300,"IsGPSCaptureRequired":true,"IsMapRequired":false,"IsGeofencingRequired":false,"IsShopFrontPhotoRequired":true,"IsTravelReportMapRequired":false,"IsRouteMapRequired":false,"IsUploadMapRequired":false,"AttendanceTypes":["Present$P","Leave$L","Absent$A","At Office$AO","Week off$WOFF","Holiday$H","Tour$T","Resign$R","Training$TR","Monthly Meeting$MM","Comp off$COFF"],"IsOTPRequired":"False","PatsalaRequired":false,"RedipaeRequired":false,"TargetAttendanceType":"P,T","IsGPSCaptureName":"Take Shop Front Photo"}
+2024-09-03 16:37:39,505 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Mobile application logged in successfully!
+2024-09-03 16:37:39,505 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - HTTP connection closed.
+2024-09-03 16:37:39,509 [TestNG-test-DailyTests-1] INFO  com.field.DataProviderUtils.Dataprovider  - Retrieving test data for method: VendoMobileLoginVerification
+2024-09-03 16:37:39,509 [TestNG-test-DailyTests-1] INFO  com.field.Utils.Excelutils  - Getting current sheet name: LoginData
+2024-09-03 16:37:39,509 [TestNG-test-DailyTests-1] INFO  com.field.DataProviderUtils.Dataprovider  - Filtered data found for test: VendoMobileLoginVerification with 1 entries.
+2024-09-03 16:37:39,513 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Getting new instance of ApiUtils.
+2024-09-03 16:37:39,513 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - App URL set to: http://vendoservice.ppms.co.in/oauth/token
+2024-09-03 16:37:39,513 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Query parameters status set to: false
+2024-09-03 16:37:39,513 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Query parameters set to: null
+2024-09-03 16:37:39,513 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - App parameters set to: UserName=8454548848&password=Test%40123&Platform=I&Deviceid=&grant_type=password
+2024-09-03 16:37:39,513 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Content type set to: x-www-form-urlencoded
+2024-09-03 16:37:39,513 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Starting API login process.
+2024-09-03 16:37:39,513 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - HTTP method set to POST.
+2024-09-03 16:37:39,513 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Content-Type header set for x-www-form-urlencoded.
+2024-09-03 16:37:39,547 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Request body written with parameters: UserName=8454548848&password=Test%40123&Platform=I&Deviceid=&grant_type=password
+2024-09-03 16:37:39,657 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - POST Response Code :: 200
+2024-09-03 16:37:39,658 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - API response received: {"access_token":"TWCKgyBBxsUhWez4DNTs1tlMaItLjHmcWhzHFqhPelC_c0L2zWzvhR26fpYb-mXh_1XJiBMhloPPuZV1_7L_A-uHItBwvy6FXHsnoE46cYiICUDMTuPRxyS0NRUrorjJUrZV7n7BFrof6pe4R5B7vFtORVI8B53hshJkqUnJOx-RXWnpae6LoTpQ4cI4_l53-Ubz85cyC6tTbDH9MGdmOhBquBOQoHMNO_K9Up2M7yDIuC0W80cBfvV_ssCvbyYrMFg_NLocFZbUi5JEWC5GnpeXCip8cBStcdprFtZss4cfCSpxAwnebthIaaPf5tYAk3--lAM4lGjlDxig6714lqAcCZdXy4W56zae590OSjIs3DSX_2t9hj_ndJDxAwDQF1-OzW-JFVwCTFhFuCm3Vm0qPasfydTcCTIKtNTckVXf8hmgTwFj0OLLKfff768DZ-Uf_BUuMc3IQMpH3fvhPA","token_type":"bearer","expires_in":35999,"username":"8454548848","usertypeid":"3","userstatusid":"1","displayname":"ezhil","id":"3068","profileimage":"","userid":"3027","starttargetid":"","ispasswordchanged":"0","userstatuscode":"RET","usertypecode":"ISP","rolecode":"","roleid":"","clientid":"",".issued":"Tue, 03 Sep 2024 11:07:41 GMT",".expires":"Tue, 03 Sep 2024 21:07:41 GMT"}
+2024-09-03 16:37:39,658 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - Mobile application logged in successfully!
+2024-09-03 16:37:39,658 [TestNG-test-DailyTests-1] INFO  com.field.Utils.ApiUtils  - HTTP connection closed.
+2024-09-03 16:37:40,411 [main] INFO  com.field.Utils.Excelutils  - Reading test details from sheet: RunManager
+2024-09-03 16:37:40,474 [main] INFO  com.field.Utils.Excelutils  - Current sheet set to: RunManager
+2024-09-03 16:37:40,478 [main] INFO  com.field.Utils.Excelutils  - Completed reading test details from sheet: RunManager
+2024-09-03 16:37:40,479 [TestNG-test-SendFile-1] INFO  com.field.DataProviderUtils.Dataprovider  - Retrieving test data for method: SendFile
+2024-09-03 16:37:40,480 [TestNG-test-SendFile-1] INFO  com.field.Utils.Excelutils  - Getting current sheet name: RunManager
+2024-09-03 16:37:40,480 [TestNG-test-SendFile-1] INFO  com.field.Utils.Excelutils  - Reading test details from sheet: LoginData
+2024-09-03 16:37:40,530 [TestNG-test-SendFile-1] INFO  com.field.Utils.Excelutils  - Current sheet set to: LoginData
+2024-09-03 16:37:40,534 [TestNG-test-SendFile-1] INFO  com.field.Utils.Excelutils  - Completed reading test details from sheet: LoginData
+2024-09-03 16:37:40,534 [TestNG-test-SendFile-1] INFO  com.field.DataProviderUtils.Dataprovider  - Test data loaded successfully from sheet: LoginData
+2024-09-03 16:37:40,534 [TestNG-test-SendFile-1] INFO  com.field.DataProviderUtils.Dataprovider  - Filtered data found for test: SendFile with 1 entries.
+2024-09-03 16:37:40,536 [TestNG-test-SendFile-1] INFO  com.field.Tests.BaseTest  - Starting setup for test method.
+2024-09-03 16:37:40,538 [TestNG-test-SendFile-1] INFO  com.field.Driver.Driver  - Initializing WebDriver for browser: Chrome with version: 129.0
+2024-09-03 16:37:40,538 [TestNG-test-SendFile-1] INFO  com.field.Pages.WhatsappPage  - Initializing WebDriver for browser: Chrome with version: 129.0
+2024-09-03 16:37:40,540 [TestNG-test-SendFile-1] INFO  com.field.Pages.WhatsappPage  - Setting up Chrome WebDriver.
+2024-09-03 16:37:41,826 [TestNG-test-SendFile-1] INFO  com.field.Pages.WhatsappPage  - Chrome WebDriver initialized successfully.
+2024-09-03 16:37:41,826 [TestNG-test-SendFile-1] INFO  com.field.Driver.Driver  - WebDriver initialized successfully.
+2024-09-03 16:37:43,542 [TestNG-test-SendFile-1] INFO  com.field.Driver.Driver  - Navigated to URL: https://web.whatsapp.com/
+2024-09-03 16:37:43,551 [TestNG-test-SendFile-1] INFO  com.field.Driver.Driver  - Implicit wait timeout set to 20 seconds.
+2024-09-03 16:37:43,569 [TestNG-test-SendFile-1] INFO  com.field.Driver.Driver  - Browser window maximized.
+2024-09-03 16:37:43,569 [TestNG-test-SendFile-1] INFO  com.field.Tests.BaseTest  - Driver initialized successfully.
+2024-09-03 16:37:43,572 [TestNG-test-SendFile-1] INFO  com.field.Pages.WhatsappPage  - Clicking on chat based on configuration.
+2024-09-03 16:37:43,573 [TestNG-test-SendFile-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: VISIBLE for element located by: By.id: pane-side
+2024-09-03 16:37:43,573 [TestNG-test-SendFile-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be visible.
+2024-09-03 16:37:51,625 [TestNG-test-SendFile-1] INFO  com.field.Pages.WhatsappPage  - Side panel is visible.
+2024-09-03 16:37:51,626 [TestNG-test-SendFile-1] INFO  com.field.Pages.WhatsappPage  - Group name from configuration: dev
+2024-09-03 16:37:51,626 [TestNG-test-SendFile-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: CLICKABLE for element located by: By.xpath: //*[@id='side']/div[1]/div/div[2]/div[2]/div/div[1]/p
+2024-09-03 16:37:51,626 [TestNG-test-SendFile-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be clickable.
+2024-09-03 16:37:52,620 [TestNG-test-SendFile-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: PRESENCE for element located by: By.xpath: //*[@title='+91 824 860 6917']
+2024-09-03 16:37:52,620 [TestNG-test-SendFile-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be present in the DOM.
+2024-09-03 16:37:53,057 [TestNG-test-SendFile-1] INFO  com.field.Pages.WhatsappPage  - 'You' chat found and clicking.
+2024-09-03 16:37:53,057 [TestNG-test-SendFile-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: CLICKABLE for element located by: By.xpath: //*[@title='+91 824 860 6917']
+2024-09-03 16:37:53,057 [TestNG-test-SendFile-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be clickable.
+2024-09-03 16:37:53,602 [TestNG-test-SendFile-1] INFO  com.field.Pages.WhatsappPage  - Clicking attach button.
+2024-09-03 16:37:53,602 [TestNG-test-SendFile-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: CLICKABLE for element located by: By.xpath: //*[@title='Attach']
+2024-09-03 16:37:53,602 [TestNG-test-SendFile-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be clickable.
+2024-09-03 16:37:54,240 [TestNG-test-SendFile-1] INFO  com.field.Pages.WhatsappPage  - Clicking documents option.
+2024-09-03 16:37:54,241 [TestNG-test-SendFile-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: CLICKABLE for element located by: By.xpath: //*[text()='Document']
+2024-09-03 16:37:54,241 [TestNG-test-SendFile-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be clickable.
+2024-09-03 16:37:54,697 [TestNG-test-SendFile-1] INFO  com.field.Pages.WhatsappPage  - Starting to set file path: E:\Automation Workspace\LoginLens\extent-test-output\DailyTestReport20240903_163647.html
+2024-09-03 16:37:54,972 [TestNG-test-SendFile-1] INFO  com.field.Pages.WhatsappPage  - File path copied to clipboard.
+2024-09-03 16:37:57,011 [TestNG-test-SendFile-1] INFO  com.field.Pages.WhatsappPage  - Simulating key presses to paste file path.
+2024-09-03 16:37:57,018 [TestNG-test-SendFile-1] INFO  com.field.Pages.WhatsappPage  - File path set successfully.
+2024-09-03 16:37:57,018 [TestNG-test-SendFile-1] INFO  com.field.Pages.WhatsappPage  - Clicking send button.
+2024-09-03 16:37:57,018 [TestNG-test-SendFile-1] INFO  com.field.Factories.ExplicitWaitFactory  - Performing explicit wait with strategy: CLICKABLE for element located by: By.xpath: //*[@data-icon='send']
+2024-09-03 16:37:57,018 [TestNG-test-SendFile-1] INFO  com.field.Factories.ExplicitWaitFactory  - Waiting for element to be clickable.
+2024-09-03 16:38:02,593 [TestNG-test-SendFile-1] INFO  com.field.Pages.WhatsappPage  - Send button clicked and waiting for 5 seconds to ensure file is sent.
+2024-09-03 16:38:02,598 [TestNG-test-SendFile-1] INFO  com.field.Tests.BaseTest  - Starting teardown for test method.
+2024-09-03 16:38:02,598 [TestNG-test-SendFile-1] INFO  com.field.Driver.Driver  - Quitting WebDriver instance.
+2024-09-03 16:38:02,996 [TestNG-test-SendFile-1] INFO  com.field.Driver.Driver  - WebDriver instance quit successfully.
+2024-09-03 16:38:02,996 [TestNG-test-SendFile-1] INFO  com.field.Driver.Driver  - Cleanup tasks performed after quitting WebDriver.
+2024-09-03 16:38:02,996 [TestNG-test-SendFile-1] INFO  com.field.Tests.BaseTest  - Driver quit successfully.

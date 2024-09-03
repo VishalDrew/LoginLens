@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" data-provider-thread-count="3" >
+    <listeners>
+        <listener class-name="com.field.Listeners.Listeners"></listener>
+        <listener class-name="com.field.Listeners.MethodInterceptor"></listener>
+        <listener class-name="com.field.Listeners.AnnotationTransformer"></listener>
+    </listeners>
+    <test thread-count="1" name="DailyTests" parallel="methods">
+        <classes>
+            <class name="com.field.Tests.WebTests"/>
+            <class name="com.field.Tests.MobileTests"/>
+        </classes>
+    </test>
+    <test thread-count="1" name="SendFile" parallel="methods">
+        <classes>
+            <class name="com.field.Tests.WhatsappTest"/>
+        </classes>
+    </test>
+</suite>
