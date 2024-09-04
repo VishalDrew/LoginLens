@@ -14,6 +14,6 @@ public class WhatsappTest extends BaseTest {
     @Test(priority = 12)
     @FrameworkAnnotations(author = {"Ezhil"}, category = {TestCaseCategory.WEB})
     public void SendFile(Map<String, String> data) throws InterruptedException, AWTException {
-        new WhatsappPage().clickchat().clickattach().clickdocuments().setPath(Constants.getExtentReportfilePath()).clickSend();
+        new WhatsappPage().clickchat().clickattach().clickdocuments().setPath(Constants.getExtentReportfilePath()).sendmessage().clickSend();
     }
 }

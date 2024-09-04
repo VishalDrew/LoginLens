@@ -38,6 +38,7 @@ public final class WhatsappPage extends BasePage {
 
     // Locator for the attach button
     private final By btnattach = By.xpath("//*[@title='Attach']");
+    private final By addacaption = By.xpath("//*[@id='app']/div/div[2]/div[2]/div[2]/span/div/div/div/div[2]/div/div[1]/div[3]/div/div/div[1]/div[1]");
 
     // Locator for the document option in the attachment menu
     private final By documents = By.xpath("//*[text()='Document']");
@@ -64,17 +65,17 @@ public final class WhatsappPage extends BasePage {
 
         if (groupName.equals("dev")) {
             // Search and click on 'You' chat for the 'Dev' group
-            /*log.info("Searching for 'DevTeam-Fieldlytics(PPMS)' chat.");
+            log.info("Searching for 'DevTeam-Fieldlytics(PPMS)' chat.");
             enter(txtboxsearch, "DevTeam-Fieldlytics(PPMS)", WaitStrategy.CLICKABLE);
             ExplicitWaitFactory.performExplicitWait(WaitStrategy.PRESENCE, devgroup);
             log.info("'You' chat found and clicking.");
-            click(devgroup, WaitStrategy.CLICKABLE);*/
+            click(devgroup, WaitStrategy.CLICKABLE);
 
 
-            enter(txtboxsearch, "you", WaitStrategy.CLICKABLE);
+            /*enter(txtboxsearch, "you", WaitStrategy.CLICKABLE);
             ExplicitWaitFactory.performExplicitWait(WaitStrategy.PRESENCE, you);
             log.info("'You' chat found and clicking.");
-            click(you, WaitStrategy.CLICKABLE);
+            click(you, WaitStrategy.CLICKABLE);*/
 
 
 
@@ -110,6 +111,14 @@ public final class WhatsappPage extends BasePage {
         click(documents, WaitStrategy.CLICKABLE);
         return this;
     }
+
+
+    public WhatsappPage sendmessage() {
+        log.info("Typing Message.");
+        enter(addacaption, "All applications testing done. Click the Report to view status!", WaitStrategy.CLICKABLE);
+        return this;
+    }
+
 
     /**
      * Clicks the send button to send the file after setting the file path.
