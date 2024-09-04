@@ -51,7 +51,7 @@ public final class Driver {
      * @param browsername The name of the browser to initialize the WebDriver for. Accepted values: "Chrome", "Firefox", "Edge".
      */
     public static void initDriver(String browsername, String version, String URL) {
-        PropertyConfigurator.configure("E:\\Automation Workspace\\LoginLens\\Log4j.properties");
+        PropertyConfigurator.configure("E:\\Fieldlytics\\Proper_Scripts\\LoginLens\\Log4j.properties");
 
         if (Objects.isNull(getDriver())) {
             try {
