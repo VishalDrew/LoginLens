@@ -61,11 +61,11 @@ public final class ExtentReport {
             extent.flush();
         }
         ExtentManager.Unload();
-        try {
-            Desktop.getDesktop().browse(new File(getExtentReportfilePath()).toURI());
+        /*try {
+            //Desktop.getDesktop().browse(new File(getExtentReportfilePath()).toURI());
         } catch (IOException e) {
             throw new FrameWorkExceptions("Extent Report you are trying to open is not found -->", e);
-        }
+        }*/
     }
 
     /**
