@@ -34,7 +34,7 @@ public final class WhatsappPage extends BasePage {
     // Locators for different chat groups
     private final By codegroup = By.xpath("//*[@title='Code Fieldlytics']");
     private final By devgroup = By.xpath("//*[@title='DevTeam-Fieldlytics(PPMS)']");
-    private final By you = By.xpath("//*[@title='+91 824 860 6917']");
+    private final By you = By.xpath("//*[@title='+91 63834 21413']");
 
     // Locator for the attach button
     private final By btnattach = By.xpath("//*[@title='Attach']");
