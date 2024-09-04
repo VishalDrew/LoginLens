@@ -51,7 +51,7 @@ public final class DriverFactory {
             logger.info("Setting up Chrome WebDriver.");
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
-            options.addArguments("--headless");
+            //options.addArguments("--headless");
             // Add user data directory to Chrome options
             options.addArguments("user-data-dir=C:\\Path");
             driver = new ChromeDriver(options);  // Initialize ChromeDriver with options
